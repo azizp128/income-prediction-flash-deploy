@@ -1,1 +1,2 @@
-# income-prediction-flash-deploy
+# heroku-ml-deployment
+Heroku ML Deployment
