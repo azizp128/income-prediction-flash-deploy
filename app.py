@@ -5,7 +5,7 @@ from sklearn import preprocessing
 import pickle
 
 app = Flask(__name__)
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('models/model.pkl', 'rb'))
 cols=['age','workclass','education','marital-status','occupation','relationship','race','gender','capital-gain','capital-loss',
       'hours-per-week','native-country']
 
