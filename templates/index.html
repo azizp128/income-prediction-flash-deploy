@@ -6,7 +6,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ML Deployment using Heroku</title>
-	<!-- <link rel="stylesheet" href="style.css"> -->
 	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
@@ -16,7 +15,7 @@
 <body>
 	<div class="prediction">
 		<h1>Income Prediction</h1>
-		<form action="{{ url_for('predict')}}" method="post">
+		<form action="{{url_for('predict')}}" method="post">
 			<label for="age">Age</label>
 			<input type="text" id="age" name="age" required="required">
 			<br>
