@@ -1,13 +1,10 @@
 import numpy as np
 import pandas as pd
 from flask import Flask, request, render_template
-from sklearn import preprocessing
 import pickle
 
 app = Flask(__name__)
 model = pickle.load(open('models/model.pkl', 'rb'))
-cols=['age','workclass','education','marital-status','occupation','relationship','race','gender','capital-gain','capital-loss',
-      'hours-per-week','native-country']
 
 @app.route('/')
 def home():
@@ -31,4 +28,4 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
