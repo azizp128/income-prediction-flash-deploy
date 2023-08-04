@@ -8,10 +8,9 @@
 body {
   margin: 0;
   font-size: 16px;
-  background-image: url("../assets/background.jpg");
+  background-image: url("background.jpg");
   background-size: cover;
   background-position: center;
-
   color: #d4d1d1;
 }
 
