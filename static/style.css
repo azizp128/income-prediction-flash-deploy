@@ -8,9 +8,11 @@
 body {
   margin: 0;
   font-size: 16px;
-  background-color: #575757;
+  background-image: url("https://images.pexels.com/photos/3184169/pexels-photo-3184169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
+
   color: #d4d1d1;
-  display: fle;
 }
 
 .container {
