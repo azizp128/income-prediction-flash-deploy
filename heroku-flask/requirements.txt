@@ -1,0 +1,11 @@
+Flask
+gunicorn
+itsdangerous==1.1.0
+Jinja2
+MarkupSafe==1.1.1
+Werkzeug==0.15.5
+numpy
+scipy
+scikit-learn==1.5.1
+matplotlib
+pandas
