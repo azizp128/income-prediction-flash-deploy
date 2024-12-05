@@ -20,7 +20,7 @@
 				<form action="{{url_for('predict')}}" method="post">
 					<label for="age" class="prediction-text">Age</label>
 					<br>
-					<input type="text" id="age" name="age" required="required" placeholder="Your Age">
+					<input type="number" min="1" max="100" id="age" name="age" required="required" placeholder="Your Age">
 					<br>
 					<label for="workclass" class="prediction-text">Working Class</label>
 					<br>
@@ -117,17 +117,17 @@
 					<br>
 					<label for="capital-gain" class="prediction-text">Capital Gain </label>
 					<br>
-					<input type="text" id="capital-gain" name="capital-gain" required="required"
+					<input type="number" min="0" max="99999" id="capital-gain" name="capital-gain" required="required"
 						placeholder="btw:[0-99999]">
 					<br>
 					<label for="capital-loss" class="prediction-text">Capital Loss </label>
 					<br>
-					<input type="text" id="capital-loss" name="capital-loss" required="required"
+					<input type="number" min="0" max="4356" id="capital-loss" name="capital-loss" required="required"
 						placeholder="btw:[0-4356]">
 					<br>
 					<label for="hours-per-week" class="prediction-text">Hours per Week </label>
 					<br>
-					<input type="text" id="hours-per-week" name="hours-per-week" required="required"
+					<input type="number" min="1" max="99" id="hours-per-week" name="hours-per-week" required="required"
 						placeholder="btw:[1-99]">
 					<br>
 					<label for="native-country" class="prediction-text">Native Country</label>
@@ -147,9 +147,9 @@
 						<option value="12">Greece</option>
 						<option value="13">Guatemala</option>
 						<option value="14">Haiti</option>
-						<option value="15">Netherlands</option>
+						<option value="15">Holand-Netherlands</option>
 						<option value="16">Honduras</option>
-						<option value="17">HongKong</option>
+						<option value="17">Hong-Kong</option>
 						<option value="18">Hungary</option>
 						<option value="19">India</option>
 						<option value="20">Iran</option>
