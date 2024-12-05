@@ -1,6 +1,6 @@
 # Description
 
-This is a machine learning model that utilizes the AdaBoost algorithm to predict income based on various attributes such as age, workclass, education, marital status, and more. This project features a web application deployed on the Heroku & Streamlit platform, which serves as the focal point for experimenting with deploying an ML model using Flask & Streamlit.
+This is a machine learning model that utilizes the Gradient Boosting Classifier algorithm to predict income based on various attributes such as age, workclass, education, marital status, and more. This project features a web application deployed on the Heroku (previously) & Streamlit platform, which serves as the focal point for experimenting with deploying an ML model using Flask & Streamlit.
 
 # Screenshot
 ## Streamlit
