@@ -4,7 +4,7 @@ This is a machine learning model that utilizes the Gradient Boosting Classifier 
 
 # Screenshot
 ## Streamlit
-![Streamlit Web Page Screenshot](assets/streamlit-screenshot.png)
+![Streamlit Web Page Screenshot](https://raw.githubusercontent.com/azizp128/income-prediction-flask/refs/heads/main/assets/streamlit-screenshot.png)
 
 ## Heroku
-![Heroku Web Page Screenshot](assets/heroku-screenshot.png)
+![Heroku Web Page Screenshot](https://raw.githubusercontent.com/azizp128/income-prediction-flask/refs/heads/main/assets/heroku-screenshot.png)
